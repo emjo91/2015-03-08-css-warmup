@@ -1,0 +1,59 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background: #ffffff;
+}
+
+h3 {
+  font-family: serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 120%;
+  padding: 1% 0;
+}
+
+#container {
+  width: 25%;
+  margin: 1%;
+  overflow: scroll;
+  height: 400px;
+/*  border: 3px black solid; */
+  }
+
+div.media-container {
+  border-top: 1px #ababab solid;
+  clear: both;
+}
+
+div.time-container {
+  margin: 2% 0 0 0;
+  float: left;
+  width: 8%;
+}
+
+div.article-container {
+  margin: 2% 2% 2% 0;
+  float: right;
+  width: 86%;
+}
+
+p.article {
+  font-family: sans-serif;
+  font-size: 75%;
+}
+
+p.time {
+  color: #ababab;
+}
+
+a.link {
+  padding: 2% 0 0 0;
+  color: #ababab;
+  text-decoration: none;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
