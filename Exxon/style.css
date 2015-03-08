@@ -1,0 +1,44 @@
+* {
+  margin: 0 auto;
+}
+#container {
+  width:15%;
+  margin: 1%;
+}
+
+#inner-container {
+  margin: 5%;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 175%;
+  font-style: italic;
+  color: #000000;
+  padding: 0 0 2% 0;
+}
+
+p.author {
+  font-size: 65%;
+  color: #ababab;
+  font-family: serif;
+  padding: 0 0 2% 0;
+}
+
+p.body {
+  font-size: 95%;
+  color: #000000;
+  font-family: serif;
+  padding: 0 0 2% 0;
+}
+
+a.link {
+  font-size: 65%;
+  font-family: sans-serif;
+  color: #4e5d95;
+  text-decoration: none;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
